@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-weight: 800;
+}
+
+#nav-bar {
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-nav {
+  font-weight: 600;
+  color: white;
+  font: size 100px !important;
+}
+.navbar b {
+  color: #f8f9fa;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.navbar-nav li a {
+  color: rgb(235, 226, 226) !important;
+  font-weight: 600;
+  text-align: left;
+  font-size: 20px;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-brand img {
+  height: 42px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(79, 142, 224),
+    rgb(6, 26, 51)
+  );
+}
+#banner {
+  background-image: linear-gradient(to right, rgb(45, 106, 185), black);
+  color: #fff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.im {
+  height: 350px;
+  width: 450px;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.im2 {
+  height: 250px;
+  width: 300px;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+.p1 {
+  font-size: 100px;
+  margin-left: 15%;
+}
+.p2 {
+  font-size: 30px;
+  margin-left: 25%;
+}
+
+#about {
+  background-image: linear-gradient(to left, rgb(45, 106, 185), white);
+  margin-top: 2%;
+}
+.P3 {
+  margin-left: 25%;
+  margin-top: 2%;
+  font-size: 50px;
+}
+
+.ul1 {
+  margin-left: 10%;
+  padding: 100px 0;
+}
+
+li {
+  padding: 15px 0;
+  font-size: 27px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.rev h1 {
+  margin-left: 25%;
+  margin-top: 5%;
+  text-underline-offset: 5px;
+}
+
+.rev img {
+  height: 100px;
+  border-left: 5px solid red;
+  padding-left: 5px;
+}
+#footer {
+  background-image: linear-gradient(to right, rgb(45, 106, 185), black);
+  color: #f8f9fa;
+}
+.footer-box {
+  padding: 20px;
+}
+.footer-box img {
+  height: 80px;
+  width: 150px;
+}
+.footer-box .fa {
+  margin-right: 8px;
+  margin-left: 30%;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, rgb(45, 106, 185), black);
+}
+.social-icons a:hover img {
+  transform: translate(-10px);
+}
+.social-icons img {
+  width: 60px;
+  height: 60px;
+  transition: 0.5s;
+}
+#products {
+  padding: 80px 0;
+}
+
+.products img {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.products {
+  padding: 20px;
+}
+
+.products h4 {
+  padding: 5px;
+  margin-top: 25px;
+}
+
+.title::before {
+  content: "";
+  background-image: linear-gradient(to right, #a1ba17, #307bdd);
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.title::after {
+  content: "";
+  background-image: linear-gradient(to right, #a1ba17, #307bdd);
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: block;
+  transform: translateY(8px);
+}
+#products .btn-primary {
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, rgb(45, 106, 185), black);
+  color: white;
+}
+
+.tt {
+  text-align: center;
+  font-size: 60px;
+}
+
+.Logo {
+  margin-left: 10px;
+  height: 60px;
+}
+.heading {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900px;
+  color: #945708;
+  text-align: center;
+}
+.img-b1 {
+  margin-left: 20%;
+  height: 230px;
+  width: 230px;
+  border: 5px solid white;
+}
+
+.imgname {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin-right: 20%;
+  margin-left: 50px;
+}
+.btn-primary {
+  font-size: 20px;
+  background-image: linear-gradient(to left, rgb(19, 152, 204), #06172c);
+  font-weight: 1000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  border-radius: 40px;
+  width: 200px;
+}
+.btn-primary a {
+  color: black;
+}
+
+#prod {
+  background-image: linear-gradient(
+    to right,
+    rgb(9, 37, 73),
+    rgb(83, 154, 196)
+  );
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#prod button-primary {
+  color: white;
+}
+.copyright {
+  font-size: 15px;
+  padding-top: 5px;
+}
